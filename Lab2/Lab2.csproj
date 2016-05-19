@@ -66,6 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\bakväxel.jpg" />
+    <Content Include="Images\cykel.jpg" />
+    <Content Include="Images\cykelcom3.jpg" />
+    <Content Include="Images\cykelhelmet.jpg" />
+    <Content Include="Images\cykelkläder7.jpg" />
+    <Content Include="Images\verktyg.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,6 +81,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Order.html" />
+    <Content Include="Pages\Recipe.html" />
+    <Content Include="Pages\Userform.html" />
+    <Content Include="ShopForm.html" />
+    <Content Include="Styles\Styling.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +94,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
