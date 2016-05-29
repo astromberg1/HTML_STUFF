@@ -1,10 +1,41 @@
 ﻿<!DOCTYPE html>
+
+<!-- 1. Add a html-file  named order.html  and erase the auto generated text 
+     2. At the top of this page display the ordered item and its quantity.
+     (Choice if you want to implement the server side, or if you just present dummy data…)
+     3. Create a form for the user to fill in containing: a. User info: Username, email and password.
+     b. Delivery address: Name, street, zip, town, phone number 
+    c. Payment address: Name, street, zip, town, phone number, project number 
+    d. Confirm order button. 
+    4. Use common senses to set different attributes to the inputs.
+     5. Divide the 3 groups visually as presented at point 3 above -->
 <html>
 <head>
-    <title></title>
+    <title>Your Order</title>
 	<meta charset="utf-8" />
+  
 </head>
 <body>
+    <form method="get" action="Userform.html">
+        <h1>Order details</h1>
+        <p>
+            <ul>
+                <li>1x Helmet Giro size medium, OrderID 1004, $100 </li>
+                <li>1x Tools set bicycle repair No 1, OrderID 1005, $30 </li>
+                <li>1x Adidas Black T-shirt Size Large, OrderID 1006, $50</li>
+            </ul>
+            <h2>Order total: $180</h2>
+        </p>
+        <br />
 
+
+
+
+        <button id="Mybutton" type="submit">  
+            <img src="../Images/User settings.PNG" /></button>
+
+
+
+    </form>
 </body>
 </html>

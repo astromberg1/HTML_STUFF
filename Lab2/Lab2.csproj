@@ -67,10 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\bakväxel.jpg" />
+    <Content Include="Images\checkout.PNG" />
     <Content Include="Images\cykel.jpg" />
     <Content Include="Images\cykelcom3.jpg" />
     <Content Include="Images\cykelhelmet.jpg" />
-    <Content Include="Images\cykelkläder7.jpg" />
+    <Content Include="Images\cykelklader7.jpg" />
+    <Content Include="Images\User settings.PNG" />
     <Content Include="Images\verktyg.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -81,6 +83,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\L1.html" />
+    <Content Include="Pages\L2.html" />
+    <Content Include="Pages\L3.html" />
+    <Content Include="Pages\L4.html" />
+    <Content Include="Pages\L5.html" />
+    <Content Include="Pages\LearnAboutInput.html" />
     <Content Include="Pages\Order.html" />
     <Content Include="Pages\Recipe.html" />
     <Content Include="Pages\Userform.html" />

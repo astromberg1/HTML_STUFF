@@ -7,7 +7,7 @@
     <link href="Styles/Styling.css" rel="stylesheet" />
 </head>
 <body>
-    <form>
+    <form method="get" action="Pages/Order.html">
         <h1>Bicycle Shop</h1>
         <section>
             <fieldset>
@@ -15,21 +15,30 @@
 
                 <legend><b>Bicycle</b></legend>
                 <img src="Images/cykel.jpg" />
-                <input type="number" name = "QTY" />
-                <input type="submit" value= "Order" />
+                <br />
+                <p>Bianchi Ultegra size medium, <b>$10000</b>,  <b> OrderID 1001 </b></p>
+
+
+                <input type="number" id="product name" name="QTY1" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
             <fieldset>
                 <legend><b>Exchange</b></legend>
                 <img src="Images/bakväxel.jpg" />
-                <input type="number" name="QTY" />
-                <input type="submit" value="Order" />
+                <br />
+                <p>Shimano dx50, <b>$500 </b>, <br /> <b> OrderID 1002 </b></p>
+                <input type="number" id="product name" name="QTY2" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
             <fieldset>
                 <legend><b>Computer</b></legend>
 
                 <img src="Images/cykelcom3.jpg" />
-                <input type="number" name="QTY" />
-                <input type="submit" value="Order" />
+                <br />
+                <p>Garmin 1000, <b>$499</b> <br /> ,<b> OrderID 1003 </b></p>
+
+                <input type="number" id="product name" name="QTY3" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
         </section>
         <section>
@@ -38,25 +47,42 @@
                 <legend><b>Helmet</b></legend>
 
                 <img src="Images/cykelhelmet.jpg" />
-                <input type="number" name="QTY" />
-                <input type="submit" value="Order" />
+                <br />
+                <p>Helmet Giro size medium, <b>$100</b>, <b> OrderID 1004 </b></p>
+                <input type="number" id="product name" name="QTY4" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
             <fieldset>
                 <legend><b>Tools</b></legend>
 
                 <img src="Images/verktyg.jpg" />
-                <input type="number" name="QTY" />
-                <input type="submit" value="Order" />
+                <br />
+                <p>Tools set bicycle repair No 1, <b>$50</b>, <b> OrderID 1005 </b></p>
+
+                <input type="number" id="product name" name="QTY5" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
             <fieldset>
-                <legend><b>Clothes</b></legend>
-                <img src="Images/cykelkläder7.jpg" />
-                <input type="number" name="QTY" />
-                <input type="submit" value="Order" />
+                <legend><b>T-shirt bicycling</b></legend>
+                <img src="Images/cykelklader7.jpg" />
+                <br />
+                <p>Adidas Black T-shirt Size Large, <b>$30</b>, <b> OrderID 1006 </b></p>
+                <input type="number" id="product name" name="QTY6" min="0" max="10" placeholder="0" />
+                <input type="submit" value="Buy" />
             </fieldset>
 
 
         </section>
+    <div> </div>
+    <br />
+    <br />
+    <br />
+    
+        <div id="checkout" >
+            <button type="submit">
+                <img src="Images/checkout.PNG"   /> </button>
+
+        </div>
 
     </form>
 
