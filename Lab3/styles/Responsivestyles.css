@@ -1,0 +1,51 @@
+﻿
+body {
+    background-color: hotpink;
+}
+
+
+@media screen and (max-width:400px) {
+    #smartphone {
+   text-align:center;
+    }
+    
+  #monitor {
+      display: none;
+  }
+  #tablet {
+      display:none;
+  }
+}
+
+@media screen and (min-width:401px) {
+    
+body {
+    background-color: cornflowerblue;
+}
+#monitor {
+    display:none;
+}
+#smartphone {
+    display: none;
+}
+#tablet {
+    text-align:center;
+}
+
+}
+@media screen and (min-width:900px) {
+   
+body {
+    background-color: khaki;
+}
+#monitor {
+    text-align:center;
+    display: inherit;
+}
+#smartphone {
+    display: none;
+}
+#tablet {
+    display: none;
+}
+}
