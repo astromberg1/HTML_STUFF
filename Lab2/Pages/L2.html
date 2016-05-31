@@ -1,10 +1,43 @@
-﻿<!DOCTYPE html>
+﻿<!--II. First name, username, social security number, telephone and mobile.--> 
+<!DOCTYPE html>
 <html>
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <style>
+        body {
+            background-color: hotpink;
+        }
+
+        header {
+            font: 20pxAriel;
+        }
+    </style>
+
 </head>
 <body>
+    <header><b>Learn about Input</b></header>
+    <br />
+    <form action="LearnAboutInput.html" method="get">
+        <fieldset>
+            <legend> Customer Info</legend>
+            <fieldset>
+                <legend> User info </legend>
+                <label for="firstname"> First name*</label> <input type="text" id="firstname" name="First Name" required /> <br />
+                <label for="username"> User name*</label> <input type="text" id="username" name="User Name" required /> <br />
+                <!--<label>
+                    Social Security Number:
+                    <input required pattern="^d{3}-d{2}-d{4}$"
+                           title="###-##-####" />
+                </label>-->
+                <label for="socialsecuritynumber"> Social Security Number</label> <input required pattern="^d{6}-d{4}$" title="000000-0000" /> <br />
+                <label for="Phone"> ZIP</label> <input type="text" id="Phone" name="Phone" /> <br />
+                <label for="Mobile"> City</label> <input type="text" id="Mobile" name="Mobile" /> <br />
+            </fieldset>
+            <input type="submit" value="Send" />
+        </fieldset>,
+    </form>
+
 
 </body>
 </html>
