@@ -106,9 +106,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\black-holes2.jpg" />
+    <Content Include="Images\blackhole3.png" />
+    <Content Include="Images\Black_Holes1.jpg" />
     <Content Include="styles\MobileStyle.css" />
     <Content Include="styles\MonitorStyle.css" />
     <Content Include="styles\Responsivestyles.css" />
+    <Content Include="styles\Styleuppg4.css" />
     <Content Include="styles\TabletStyle.css" />
     <Content Include="uppg2.html" />
     <Content Include="index.html" />
@@ -117,11 +121,16 @@
     <Content Include="Stylelab3uppg1.css" />
     <Content Include="styles\Stylelab3uppg2.css" />
     <Content Include="uppg3.html" />
+    <Content Include="uppg4main.html" />
+    <Content Include="uppg4_1.html" />
+    <Content Include="uppg4_2.html" />
+    <Content Include="Uppg4_3.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

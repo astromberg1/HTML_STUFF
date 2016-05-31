@@ -1,14 +1,33 @@
-﻿
-body {
+﻿body {
     background-color: hotpink;
 }
 
+#horizontel {  display: inline-block;background-color:aquamarine;}
 
+#blackhole1{ width:100%;
+             height:auto;
+}
+#blackhole2{ width:100%;
+             height:auto;
+}
+#blackhole3{ width:100%;
+             height:auto;
+}
+ul{
+    display:inline-block;
+   
+   width:100%; 
+   height:150px; 
+    
+  
+
+}
 @media screen and (max-width:479px) {
     #smartphone {
    text-align:center;
-   color:brown;
     }
+
+
     
   #monitor {
       display: none;
@@ -31,7 +50,10 @@ body {
 }
 #tablet {
     text-align:center;
-    color:red;
+}
+#buttons{
+    width:auto;
+
 }
 
 }
@@ -42,13 +64,16 @@ body {
 }
 #monitor {
     text-align:center;
-    /*display: inherit*/;
-    color:darkslategrey;
+    /*display: inherit;*/
 }
 #smartphone {
     display: none;
 }
 #tablet {
     display: none;
+}
+#buttons{
+    width:auto;
+
 }
 }
