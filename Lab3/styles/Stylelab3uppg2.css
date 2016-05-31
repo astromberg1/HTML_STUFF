@@ -1,0 +1,35 @@
+﻿body {
+    background-color: blueviolet;
+}
+
+article {
+    background-color: #b6ff00;
+    font: larger;
+    padding: 20px;
+    margin: 2px;
+}
+
+aside {
+    background-color: bisque;
+}
+
+h1 {
+    font: bold;
+    color: yellow;
+}
+h2 {
+    text-transform:uppercase;
+    color: blue;
+    font-size:larger;
+ 
+}
+
+h2:hover{
+    font-size:xx-large;
+    color: springgreen;
+}
+p {
+    font-family: Arial;
+    background-color:hsla(0, 100%, 90%, 0.3);
+    
+}
