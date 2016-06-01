@@ -1,7 +1,19 @@
 ﻿body{
     background-color:hotpink;
+    font:xx-large bold;
+    
 }
 
+#wrapper {
+    width:300px;
+    /*max-width: 300px;
+    min-width: 300px;*/
+    margin: 10px auto; /*uppe/nere och höger/vänster*/
+    /*margin: 30px auto 30px auto; /*Klockan!!!*/
+    /*border: 5px solid black;*/
+    padding: 10px;
+    outline: 10px dotted #00ffff;
+}
 #button1{
     width:50px;
     height:8px;
@@ -12,11 +24,12 @@
 #phone{
    
     background-color:white;
-    width:300px;
+    width:280px;
     height:500px;
     border:2px solid grey;
     border-style:solid;
     border-radius: 20px;
+    margin: auto auto;
 }
 #p1{
     width:10px;
@@ -46,8 +59,13 @@
 }
 #skarm{
        float:left;
-    margin:20px 10px 10px 20px;
-    width:250px;
+    margin:20px 10px 10px 30px;
+ /*top margin is 20px
+◦right margin is 10px
+◦bottom margin is 10px
+◦left margin is 20px*/
+
+    width:220px;
     height:340px;
     border:1px solid #808080;
     border-radius:10px;
@@ -65,7 +83,7 @@
     width:45px;
     height:45px;
     background-color:#ff00dc;
-    margin:9px 5px 9px 9px; 
+    margin:9px 5px;
     border-radius:15%;
     float:left;
 
