@@ -115,6 +115,7 @@
     <Content Include="styles\Styleuppg4.css" />
     <Content Include="styles\TabletStyle.css" />
     <Content Include="styles\TransformStyle.css" />
+    <Content Include="styles\uppg6iphoneStyle.css" />
     <Content Include="uppg2.html" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
@@ -127,6 +128,7 @@
     <Content Include="uppg4_2.html" />
     <Content Include="Uppg4_3.html" />
     <Content Include="uppg5.html" />
+    <Content Include="uppg6Iphone.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
