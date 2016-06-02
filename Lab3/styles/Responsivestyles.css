@@ -6,6 +6,7 @@ body {
 
 @media screen and (max-width:479px) {
     #smartphone {
+        display: inherit;
    text-align:center;
    color:brown;
     }
@@ -30,6 +31,7 @@ body {
     display: none;
 }
 #tablet {
+    display: inherit;
     text-align:center;
     color:red;
 }
@@ -42,8 +44,8 @@ body {
 }
 #monitor {
     text-align:center;
-    /*display: inherit*/;
-    color:darkslategrey;
+    display: inherit;
+    color:black;
 }
 #smartphone {
     display: none;

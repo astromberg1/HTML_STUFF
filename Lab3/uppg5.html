@@ -4,11 +4,33 @@
     <title>Uppgift 5</title>
     <meta charset="utf-8" />
     <link href="styles/TransformStyle.css" rel="stylesheet" />
+    <style>
+        p span.show {
+            display: none;
+        }
+
+        p:hover span.show {
+            display: inline;
+        }
+
+        p:hover span.noshow {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-    <div id="change">
-       Hello Folks!
-    </div>
+
+    <p>
+        <span class="noshow">Hej!</span><span class="show">Hej Då Grabben!</span>
+    </p>
+
+    <!--<div id="change">
+        <div class="nr1">"Hej"</div>
+        <div class="nr2">"Hej då"</div>
+
+
+    </div>-->
+    
 
 </body>
 </html>
