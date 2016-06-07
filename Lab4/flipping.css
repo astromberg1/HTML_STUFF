@@ -1,0 +1,106 @@
+﻿
+/*3d-animeringar körs i en container som vi stylar.
+    containern med fast storlek gör att vi inte 
+    påverkar omgivningen under själva animeringen.*/
+img{
+ width: 300px;
+ height: 300px;
+ visibility:visible;
+ z-index:0;
+}
+
+.album_container {
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -moz-transition: all 1.3s ease-in-out;
+    -o-transition: all 1.3s ease-in-out;
+    -webkit-transition: all 1.3s ease-in-out;
+    transition: all 1.3s ease-in-out;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding: 10px;
+    color: #aaa;
+    background-color: white;
+}
+
+.ett{
+    border:solid;
+    border-color:aquamarine;
+}
+
+.tvau{
+    border:solid;
+    border-color:aquamarine;
+}
+
+.ett .album_container:hover .picture {
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.tvau .back {
+    -moz-transform: rotateZ(180deg) rotateY(180deg); 
+    -ms-transform: rotateZ(180deg) rotateY(180deg);
+    -o-transform: rotateZ(180deg) rotateY(180deg);
+    -webkit-transform: rotateZ(180deg) rotateY(180deg);
+     transform: rotateZ(180deg) rotateY(180deg);
+}
+
+.tvau .album_container:hover .picture {
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.tvau .card:hover {
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
