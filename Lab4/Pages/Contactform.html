@@ -8,8 +8,34 @@
     <!--<link href="Content/bootstrap.css" rel="stylesheet" />-->
     <link href="../flipping.css" rel="stylesheet" />
     <link href="../Styles.css" rel="stylesheet" />
-
+    <link href="../dropdownstyle.css" rel="stylesheet" />
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0,user-scalable=no,width=device-width" />
+
+    <script>
+
+     
+        /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onfocus = function (event) {
+            if (!event.target.matches('.dropdown')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+    </script>
 
 </head>
 <body>
@@ -38,10 +64,39 @@
         </header>
         <h1>Contact Us</h1>
         <br />
+
+        <h2>First Describe how you like the site?</h2>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Grade the Site</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#best">Very Good</a>
+                <a href="#normal">Normal</a>
+                <a href="#bad">Bad</a>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <div class="cont1">
+            <div id="best" class="vgood">
+                <img src="../Images/vgood.PNG" />
+            </div>
+            <div id="normal" class="norm">
+                <img src="../Images/normal.PNG" />
+            </div>
+            <div id="bad" class="jbad">
+                <img src="../Images/bad.PNG" />
+            </div>
+
+
+
+
+
+        </div>
         <div id="contact_form">
             <form action="MessageRespons.html" name="contact_form" id="validate_form" method="get" accept-charset="utf-8">
-
-
 
 
                 <ul style="list-style:none">
@@ -50,6 +105,9 @@
                     <li><label for="email">E-mail: (*)</label><input id="email" type="text" name="rt_email" value="" /> </li>
                     <li><label for="phone">Phone: (*) </label><input id="phone" type="text" name="rt_phone" value="" /> </li>
                     <li><label for="message">Message: (*)</label><textarea id="message" name="rt_message" rows="8" cols="40" c></textarea></li>
+
+
+
                     <li><input type="submit" class="button" value="Send" /></li>
                 </ul>
             </form>

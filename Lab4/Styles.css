@@ -40,3 +40,6 @@ img{
     border-radius:5%;
    
 }
+
+.hidden { display: none; }
+.unhidden { display: block; }

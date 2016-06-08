@@ -94,8 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dropdownstyle.css" />
     <Content Include="flipping.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\bad.PNG" />
     <Content Include="Images\bigp.jpg" />
     <Content Include="Images\bild1.PNG" />
     <Content Include="Images\bild10.PNG" />
@@ -108,6 +110,8 @@
     <Content Include="Images\bild7.PNG" />
     <Content Include="Images\bild8.PNG" />
     <Content Include="Images\bild9.PNG" />
+    <Content Include="Images\normal.PNG" />
+    <Content Include="Images\vgood.PNG" />
     <Content Include="index.html" />
     <Content Include="Media\Ocean_Waves-Mike_Koenig-980635527.mp3" />
     <Content Include="packages.config" />
