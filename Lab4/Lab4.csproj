@@ -125,7 +125,9 @@
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Pages\Contactform.html" />
     <Content Include="Pages\Gallery.html" />
+    <Content Include="Pages\GamePage.html" />
     <Content Include="Pages\MessageRespons.html" />
+    <Content Include="Pages\VideoPage.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
