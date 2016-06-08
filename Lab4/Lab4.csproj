@@ -109,6 +109,7 @@
     <Content Include="Images\bild8.PNG" />
     <Content Include="Images\bild9.PNG" />
     <Content Include="index.html" />
+    <Content Include="Media\Ocean_Waves-Mike_Koenig-980635527.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -118,7 +119,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Pages\Contactform.html" />
     <Content Include="Pages\Gallery.html" />
+    <Content Include="Pages\MessageRespons.html" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
