@@ -48,16 +48,16 @@
     height: 200px;
     border-radius: 5%;
     border: dotted solid red;
-    margin: 10px;
-    -ms-align-content: center;
-    -webkit-align-content: center;
-    align-content: center;
+    margin-left:200px;
+    
+    
+    
    
 }
 
 
 .vgood{
-       display:block;
+       display:none;
 }
 .norm{
        display:none;
@@ -65,9 +65,7 @@
 .jbad{
        display:none;
 }
-.vgood:focus{
-    display:block;
-}
+
 img {
     width:180px;
     height:180px;

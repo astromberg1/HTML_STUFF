@@ -12,6 +12,20 @@
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0,user-scalable=no,width=device-width" />
 
     <script>
+        function showhide(id) {
+            var s = document.getElementById('best');
+            s.style.display = 'none';
+            var d = document.getElementById('normal');
+            d.style.display = 'none';
+            var f = document.getElementById('bad');
+            f.style.display = 'none';
+            var x = document.getElementById('myDropdown');
+            x.style.display = 'none';
+
+            var e = document.getElementById(id);
+            e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+            
+        }
 
      
         /* When the user clicks on the button, 
@@ -67,11 +81,11 @@ toggle between hiding and showing the dropdown content */
 
         <h2>First Describe how you like the site?</h2>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Grade the Site</button>
+            <button onclick="myFunction()"  class="dropbtn">Grade the Site</button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#best">Very Good</a>
-                <a href="#normal">Normal</a>
-                <a href="#bad">Bad</a>
+                <a href=javascript:showhide('best')>Very Good</a>
+                <a href=javascript:showhide('normal')>Normal</a>
+                <a href=javascript:showhide('bad')>Bad</a>
             </div>
         </div>
 
