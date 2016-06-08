@@ -94,10 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dropdownstyle.css" />
-    <Content Include="flipping.css" />
+    <Content Include="Styles\dropdownstyle.css" />
+    <Content Include="Styles\flipping.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="gamestyle.css" />
+    <Content Include="Styles\gamestyle.css" />
     <Content Include="Images\agua.jpg" />
     <Content Include="Images\bad.PNG" />
     <Content Include="Images\bigp.jpg" />
@@ -153,8 +153,8 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Styles.css" />
-    <Content Include="VideoStyles.css" />
+    <Content Include="Styles\Styles.css" />
+    <Content Include="Styles\VideoStyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

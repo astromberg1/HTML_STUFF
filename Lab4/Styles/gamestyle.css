@@ -70,7 +70,7 @@
     top: 400px;
     left: 50px;
   }
-@keyframes morenaswim{
+@keyframes stonefishswim{
     0% {
         left:100px;
         
@@ -95,9 +95,9 @@
     }
      }
 
-#stonefishbox:checked ~ .aquarium #morenaid {
+#stonefishbox:checked ~ .aquarium #stonefishid {
     animation-name: morenaswim;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
