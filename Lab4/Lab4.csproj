@@ -111,8 +111,10 @@
     <Content Include="Images\bild8.PNG" />
     <Content Include="Images\bild9.PNG" />
     <Content Include="Images\normal.PNG" />
+    <Content Include="Images\tv5.PNG" />
     <Content Include="Images\vgood.PNG" />
     <Content Include="index.html" />
+    <Content Include="Media\Maldive3.mp4" />
     <Content Include="Media\Ocean_Waves-Mike_Koenig-980635527.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -122,6 +124,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Media\Maldive3.webm" />
+    <Content Include="Media\Maldive3.ogv" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Pages\Contactform.html" />
     <Content Include="Pages\Gallery.html" />
@@ -144,6 +148,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Styles.css" />
+    <Content Include="VideoStyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
