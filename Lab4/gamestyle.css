@@ -1,0 +1,264 @@
+﻿body{
+    background-color:aquamarine;
+}
+
+.aquarium {
+    position: relative; 
+    margin-bottom: 25px;
+    border: 2px solid white;
+    width: 800px;
+    height: 550px;
+    background: url('Images/agua.jpg') no-repeat;
+    
+}
+
+
+
+.aqua {
+    position: absolute;
+    -moz-perspective: 1000px;
+    -ms-perspective: 1000px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+
+#sharkid{
+    width: 170px;
+    top: 100px;
+    left: 100px;
+  }
+#morenaid{
+    width: 170px;
+    top: 250px;
+    left: 20px;
+  }
+
+@keyframes morenaswim{
+    0% {
+        left:100px;
+        
+    }
+    25% {
+        left: 300px;
+    }
+       
+       
+    50% {
+        left:500px;
+       
+    }
+    75% { 
+        left:600px;
+        
+       
+    }
+    100% { 
+        left:100px;
+        
+    }
+     }
+
+#morenabox:checked ~ .aquarium #morenaid {
+    animation-name: morenaswim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#stonefishid{
+    width: 170px;
+    top: 400px;
+    left: 50px;
+  }
+@keyframes morenaswim{
+    0% {
+        left:100px;
+        
+    }
+    25% {
+        left: 300px;
+    }
+       
+       
+    50% {
+        left:500px;
+       
+    }
+    75% { 
+        left:600px;
+        
+       
+    }
+    100% { 
+        left:100px;
+        
+    }
+     }
+
+#stonefishbox:checked ~ .aquarium #morenaid {
+    animation-name: morenaswim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+@-moz-keyframes sharkswim{
+    0% {left:100px;
+        top:100px;}
+    40% {
+        left: 450px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 450px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+  80%{left: 100px;
+        top:100px;
+      
+
+  }
+
+    100%{ left: 100px;  top:100px;}
+
+}
+
+@-webkit-keyframes sharkswim{
+    0% {left:100px;
+        top:100px;}
+    40% {
+        left: 450px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 550px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+  80%{left: 100px;
+        top:100px;
+      
+
+  }
+
+    100%{ left: 100px;  top:100px;}
+
+}
+
+@keyframes sharkswim{
+    0% {left:100px;
+        top:100px;}
+    40% {
+        left: 450px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    50% {
+        left: 550px;
+        top: 100px;
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+  80%{left: 100px;
+        top:100px;
+      
+
+  }
+
+    100%{ left: 100px;  top:100px;}
+
+}
+
+#sharkbox:checked ~ .aquarium #sharkid {
+    -moz-animation-name: sharkswim;
+    -o-animation-name: sharkswim;
+    -webkit-animation-name: sharkswim;
+    animation-name: sharkswim;
+    -moz-animation-duration: 12s;
+    -o-animation-duration: 12s;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+#diverid{
+    width: 170px;
+    top: 150px;
+    left: 100px;
+  
+
+}
+
+
+@keyframes diverswim{
+    0% {
+        left:100px;
+        top:150px;
+    }
+    25% {
+        left:400px;
+        top:150px;
+        transform: rotateZ(60deg);
+    }
+    50% {
+        left:400px;
+        top:400px;
+        transform: rotateZ(120deg);
+        
+    }
+    75% { 
+        left:100px;
+        top:400px;
+        transform: rotateY(180deg);
+    }
+    100% { 
+        left:100px;
+        top:150px;
+    }
+     }
+
+#diverbox:checked ~ .aquarium #diverid {
+    animation-name: diverswim;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+

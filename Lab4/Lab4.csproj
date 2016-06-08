@@ -97,6 +97,8 @@
     <Content Include="dropdownstyle.css" />
     <Content Include="flipping.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gamestyle.css" />
+    <Content Include="Images\agua.jpg" />
     <Content Include="Images\bad.PNG" />
     <Content Include="Images\bigp.jpg" />
     <Content Include="Images\bild1.PNG" />
@@ -110,7 +112,11 @@
     <Content Include="Images\bild7.PNG" />
     <Content Include="Images\bild8.PNG" />
     <Content Include="Images\bild9.PNG" />
+    <Content Include="Images\diver.JPG" />
+    <Content Include="Images\morena.JPG" />
     <Content Include="Images\normal.PNG" />
+    <Content Include="Images\shark.JPG" />
+    <Content Include="Images\stonefish.JPG" />
     <Content Include="Images\tv5.PNG" />
     <Content Include="Images\vgood.PNG" />
     <Content Include="index.html" />
