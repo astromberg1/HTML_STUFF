@@ -115,26 +115,25 @@ toggle between hiding and showing the dropdown content */
 
 
                 <ul style="list-style:none">
-                    <li><label for="name">Name: (*)</label><input id="name" type="text" name="rt_name" value="" autofocus /> </li>
-                    <li><label for="name">Last Name: (*)</label><input id="lastname" type="text" name="rt_lname" value="" /> </li>
-                    <li><label for="email">E-mail: (*)</label><input id="email" type="text" name="rt_email" value="" /> </li>
-                    <li><label for="phone">Phone: (*) </label><input id="phone" type="text" name="rt_phone" value="" /> </li>
-                    <li><label for="message">Message: (*)</label><textarea id="message" name="rt_message" rows="8" cols="40" c></textarea></li>
+                    <li><label for="name">Name: (*)</label><input id="name" type="text" name="rt_name" value="" required autofocus /> </li>
+                    <li><label for="name">Last Name: (*)</label><input id="lastname" type="text" name="rt_lname" value="" required /> </li>
+                    <li><label for="email">E-mail: (*)</label><input id="email" type="text" name="rt_email" value="" required/> </li>
+                    <li><label for="phone">Phone: (*) </label><input id="phone" type="text" name="rt_phone" value="" required/> </li>
+                    <li><label for="message">Message: (*)</label><textarea id="message" name="rt_message" rows="8" cols="40" required></textarea></li>
 
 
 
                     <li><input type="submit" class="button" value="Send" /></li>
                 </ul>
             </form>
-        </div>
-        <footer class="row">
-            <div class="col-sm-12 copyrights">
-                <br />
-                <small>
-                    &copy; 2016 stromberg.com ! Note this is a SchoolProject.
-                </small>
-            </div>
-        </footer>
-    </div>
+
+            <footer class="row">
+                <div class="col-sm-12 copyrights">
+                    <br />
+                    <small>
+                        &copy; 2016 stromberg.com ! Note this is a SchoolProject.
+                    </small>
+                </div>
+            </footer>
 </body>
 </html>

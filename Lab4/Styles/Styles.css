@@ -43,3 +43,9 @@ img{
 
 .hidden { display: none; }
 .unhidden { display: block; }
+
+footer{
+    background-color:darkblue;
+    height:40px;
+    color:hotpink;
+}
